@@ -1,0 +1,6 @@
+.idea
+*.iml
+*.lst
+*.classs
+*/target/**
+*.docx
