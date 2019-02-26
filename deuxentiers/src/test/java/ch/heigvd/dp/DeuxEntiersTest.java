@@ -15,4 +15,12 @@ public class DeuxEntiersTest {
         DeuxEntiers moduloTest = new DeuxEntiers(7,3);
         assertEquals(1, moduloTest.modulo());
     }
+
+    @Test
+    void divide0() {
+        final DeuxEntiers septZéro = new DeuxEntiers(7,0);
+        assertThrows(ArithmeticException.class, () -> {
+            septZéro.divise();
+        });
+    }
 }
