@@ -14,6 +14,6 @@ public class DeuxEntiersTest {
     @Test
     void modulo() {
         DeuxEntiers moduloTest = new DeuxEntiers(7, 3);
-        assertEquals(1, moduloTest.modulo());
+        assertEquals(0, moduloTest.modulo());
     }
 }
