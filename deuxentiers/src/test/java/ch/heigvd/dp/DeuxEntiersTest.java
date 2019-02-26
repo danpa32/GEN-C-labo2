@@ -3,6 +3,7 @@ package ch.heigvd.dp;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+// This is a test class
 public class DeuxEntiersTest {
     @Test
     void divise() {
@@ -12,7 +13,7 @@ public class DeuxEntiersTest {
 
     @Test
     void modulo() {
-        DeuxEntiers moduloTest = new DeuxEntiers(7,3);
+        DeuxEntiers moduloTest = new DeuxEntiers(7, 3);
         assertEquals(1, moduloTest.modulo());
     }
 }
